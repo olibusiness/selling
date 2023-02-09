@@ -39,6 +39,9 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -76,13 +79,11 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
 }
 
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
@@ -103,5 +104,116 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+/*---------------------------------------------*/
+
+li{
+  list-style-type: none;
+  margin-top: 5px;
+}
+.pic{
+width: 300px;
+height: 300px;
+object-fit: cover;
+border-radius: 10px;
+/* margin-left:auto */
+}
+
+.pic-price{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+} 
+
+.info{
+  display: block;
+  margin-left: 30px;
+}
+
+.footer{
+  color: #fff;
+  font-size: 1.1rem;
+  margin-top: 34%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  display: block;
+}
+/* ---------------index-------------- */
+.title{
+  text-align: center;
+  font-size: 3rem;
+}
+.index-links{
+  position: absolute;
+  top: 17px;
+  left: 50px;
+}
+.index-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 16rem;
+  margin-right: 20px;
+}
+.index-imgs{
+  width: 400px;
+  border-radius: 20px;
+}
+.text-ontop{
+    position: relative;
+    filter: blur(5px);
+    margin: 40px;
+}
+.text-ontop:hover {
+  filter: blur(0);
+  transition: filter 0.25s linear;
+}
+
+@media screen and (max-width: 775px){
+  .index-container{
+    margin-left: 10px;
+  }
+}
+
+
+/* -------------------product------------------- */
+.product-list{
+  margin-left: 20px;
+}
+
+.product-title{
+  margin-left: 20px;
+}
+
+.product-description{
+  max-width: 300px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.coming{
+  text-align: center;
+  font-size: 3rem;
+}
+.links-other{
+  display: none;
+}
+@media screen and (max-width: 420px){
+  .index-imgs{
+    width: 300px;
+  }
+  .index-container{
+    margin-left: 0px;
+  }
+
+  .text-ontop{
+    filter: blur(0);
+  }
+  .links-other{
+    display: block;
   }
 }

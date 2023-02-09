@@ -1,0 +1,38 @@
+{
+  "index": {
+    "title": "Black markets thing",
+    "content": "get anything"
+  },
+  "pages": [
+    {
+      "title": "Breaking bad stickers",
+      "path": "/product/breaking-bad-stickers",
+      "content": "$0.50",
+      "img" : "https://m.media-amazon.com/images/I/810Vgg2PAUL.jpg",
+      "description" : "Add some Breaking Bad flair to your stuff with these stickers for only 50 cents each"
+    },
+    {
+      "title": "Ace lighter",
+      "path": "/product/ace-lighter",
+      "content": "$20",
+      "img" : "https://cdn.shopify.com/s/files/1/0591/9008/3765/products/L-005_4_RS_800x.jpg?v=1667919998",
+      "description" : "Ace lighters are a stylish and practical choice for anyone in need of a reliable lighter. "
+    },
+    {
+      "title": "Fake-Knife",
+      "path": "/product/fake-knife",
+      "content": "$10",
+      "img" : "https://ae01.alicdn.com/kf/H0847fb095b784d02b53fe3d17bd0898cm/1PCS-Plastic-20cm-Trick-Dagger-Knife-Retractable-Telescopic-Toy-Knife-Fun-Joke-Prank-Halloween-Prop-Fake.jpg_Q90.jpg_.webp",
+      "description" : "This toy knife features a durable plastic blade that can be easily extended and retracted"
+
+    },
+    {
+      "title" : "Rings",
+      "path" :  "/product/ring",
+      "content": "$3",
+      "img" : "https://ae01.alicdn.com/kf/H098f793305144eb9a711cd76b0bf35983/5pcs-lot-Mix-Random-Style-Hiphop-Punk-Stainless-Steel-Fire-Butterfly-Spider-Band-Rings-Vintage-Goth.jpg_.webp",
+      "description":"Discover the perfect accessory for every occasion, with our wide range of rings (each different)"
+
+    }
+  ]
+}

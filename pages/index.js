@@ -2,7 +2,6 @@ export default function Index() {
   return (
       <>
         <h1 className="title">Black Market</h1>
-        {/* <div dangerouslySetInnerHTML={{__html: content.index.content}}></div> */}
         <div className="index-container">
           <div className="text-ontop">
           <a href="/product">

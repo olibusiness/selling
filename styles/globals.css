@@ -162,6 +162,7 @@ border-radius: 10px;
 .index-imgs{
   width: 400px;
   border-radius: 20px;
+  object-fit: cover;
 }
 .text-ontop{
     position: relative;

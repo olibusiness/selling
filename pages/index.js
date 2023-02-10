@@ -1,22 +1,23 @@
+import Link from "next/link";
+import Image from "next/image";
 export default function Index() {
   return (
       <>
         <h1 className="title">Black Market</h1>
-        {/* <div dangerouslySetInnerHTML={{__html: content.index.content}}></div> */}
         <div className="index-container">
           <div className="text-ontop">
-          <a href="/product">
-          <img src="/products.jpeg" alt="products" className="index-imgs"/>
+          <Link href="/product">
+          <Image src="/products.jpeg" alt="products" className="index-imgs" width={300} height={220}/>
           <h2 className="index-links">Product</h2>
-          </a>
+          </Link>
         </div>
 
         <br/>
         <div className="text-ontop">
-        <a href="/coming">
-        <img src="/shipping.webp" alt="shipping" className="index-imgs"/>
+        <Link href="/coming">
+        <Image src="/shipping.webp" alt="shipping" className="index-imgs" width={300} height={220}/>
         <h2 className="index-links">Shipping</h2>
-        </a>
+        </Link>
         </div>
         </div>
       </>

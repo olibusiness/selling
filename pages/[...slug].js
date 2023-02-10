@@ -1,12 +1,13 @@
 import content from '../frontaid.content.json';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Page({page}) {
 
   return (
       <>
         <div className='pic-price'>
-        <img src= {page.img} alt = {page.title} className= "pic"/>
+        <Image src= {page.img} alt = {page.title} className= "pic" width={200} height={300}/>
         <div className='info'>
         <h1>{page.title}</h1>
         <h2>{page.content}</h2>
